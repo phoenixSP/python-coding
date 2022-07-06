@@ -4,6 +4,16 @@ Created on Thu Jun  9 22:21:58 2022
 
 @author: shrey
 """
+# PROBLEM STATEMENT: MERGE TWO SORTED LISTS
+'''
+Solution: 
+    - Get three pointers, one for each of the lists present and one for the 
+    newly made final list
+    - Check which of the pointed elements is smaller, add that to the final 
+    list and increment the pointer forward
+    - After finishing iteration over the smaller list, add the remaining 
+    elements to the bigger list
+'''
 
 def merge_lists(lst1, lst2):
     
