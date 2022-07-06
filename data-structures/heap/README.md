@@ -11,6 +11,6 @@
 
 - Heaps can be represented as lists/arrays
 
--- For a parent at index k, the left child would be at 2k+1 position and the right child will be at 2k+2 position
--- The index of all the parent nodes will be <= floor(n-1/2), where n is the last index
--- The index of the first leaf node will be floor(n+1/2)., where n is the last index
+	- For a parent at index k, the left child would be at 2k+1 position and the right child will be at 2k+2 position
+	- The index of all the parent nodes will be <= floor(n-1/2), where n is the last index
+	- The index of the first leaf node will be floor(n+1/2)., where n is the last index
