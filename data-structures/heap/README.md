@@ -43,4 +43,10 @@
 	- The number of nodes at height h is at most ceil(n/2^(h+1)) = n_node(h)
 	- The time complexity is summation of n_node(h)*O(h) where h is from 0 to log(n)
 
+## Min Heap
+
+Similar to Max heap
+
+
+
 
