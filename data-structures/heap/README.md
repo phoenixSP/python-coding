@@ -32,11 +32,11 @@
 - Continue to max heapify until heap property is restored 
 - *Time complexity*: O(log(n)), because that is the maximum number of nodes that would have to be traversed and/or swapped
 
-## Get Maximum
+### Get Maximum
 - Get the first element
 - *Time complexity*: O(1)
 
-## Build a Heap 
+### Build a Heap 
 - Perform Max Heapify operation at each index starting from the last index of the list building a heap
 - *Time complexity*: O(n)
 	- The number of comparisons for a particular node at height h is O(h)
