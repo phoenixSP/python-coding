@@ -14,7 +14,8 @@ Solution:
     
 Compexity: 
     - Time complexity: 
-        - Adding k elements: O(klogk)
+        - Adding k elements: O(k) [similar to heapification, since length is 
+        dynamic] < O(klogk)
         - Processing the rest of the elements: O((n-k)log k)
         - Overall time complexity: O(klogk + (n-k)logk) = O(nlogk)
         
